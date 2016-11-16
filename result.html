@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/blaze.min.css">
+    <link rel="stylesheet" href="css/blaze.colors.min.css">
+    <link rel="stylesheet" href="css/result.css">
+    <title>Links Collector for Amazon and Wallmart</title>
+</head>
+<body>
+<div class="c-overlay c-overlay--dismissable"></div>
+<div class="o-drawer u-highest o-drawer--top o-drawer--visible">
+    <div class="c-card">
+        <header class="c-card__header">
+            <div class="o-grid">
+                <div class="o-grid__cell o-grid__cell--width-fixed" style="width: 60px">
+                    <img src="img/icon_main.png" class="o-image">
+                </div>
+                <div class="o-grid__cell">
+                    <h1 class="c-heading">
+                        Links Collector for Amazon and Walmart
+                    </h1>
+                </div>
+            </div>
+        </header>
+        <hr>
+
+        <div class="c-card__body">
+            <div class="o-grid">
+                <div class="o-grid__cell o-grid__cell--width-50 u-centered">
+                    <h2 class="c-heading">Amazon Items</h2>
+                    <button class="c-button c-button--success" id="buttonAmazon" data-clipboard-target="#Amazon">Copy to clipboard Amazon IDs</button>
+                    <hr>
+                    <ul class="c-list c-list--unstyled" id="Amazon">
+                    </ul>
+                </div>
+                <div class="o-grid__cell o-grid__cell--width-50 u-centered">
+                    <h2 class="c-heading">Walmart Items</h2>
+                    <button class="c-button c-button--success" id="buttonWalmart" data-clipboard-target="#Walmart">Copy to clipboard Walmart IDs</button>
+                    <hr>
+                    <ul class="c-list c-list--unstyled" id="Walmart">
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="c-card__footer">
+        </footer>
+    </div>
+</div>
+<script src="js/clipboard.min.js"></script>
+<script src="js/result.js"></script>
+</body>
+</html>

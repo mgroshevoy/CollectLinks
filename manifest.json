@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Collect Links",
+  "version": "1.0",
+
+  "description": "Links collector for Amazon and Walmart",
+
+  "icons": {
+    "128": "img/icon_main.png"
+  },
+
+  "optional_permissions": ["tabs"],
+  "options_page": "options.html",
+
+  "permissions": [
+    "tabs",
+    "clipboard",
+    "clipboardRead",
+    "clipboardWrite"
+  ],
+
+  "browser_action": {
+    "default_title": "CollectLinks",
+    "default_icon": "img/icon_main.png",
+    "default_popup": "popup.html"
+  }
+
+}
