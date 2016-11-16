@@ -26,20 +26,20 @@
         <hr>
 
         <div class="c-card__body">
-            <div class="o-grid">
+            <div class="o-grid o-grid--small-full o-grid--medium-fit o-grid--large-full">
                 <div class="o-grid__cell o-grid__cell--width-50 u-centered">
-                    <h2 class="c-heading">Amazon Items</h2>
-                    <button class="c-button c-button--success" id="buttonAmazon" data-clipboard-target="#Amazon">Copy to clipboard Amazon IDs</button>
+                    <h2 class="c-heading"><img src="img/amazon.png" width="50"></h2>
+                    <button class="c-button c-button--success" id="buttonAmazon">Save to CSV</button>
                     <hr>
-                    <ul class="c-list c-list--unstyled" id="Amazon">
-                    </ul>
+                    <div class="o-grid" id="amazon">
+                    </div>
                 </div>
                 <div class="o-grid__cell o-grid__cell--width-50 u-centered">
-                    <h2 class="c-heading">Walmart Items</h2>
-                    <button class="c-button c-button--success" id="buttonWalmart" data-clipboard-target="#Walmart">Copy to clipboard Walmart IDs</button>
+                    <h2 class="c-heading"><img src="img/walmart.png" width="50"></h2>
+                    <button class="c-button c-button--success" id="buttonWalmart">Save to CSV</button>
                     <hr>
-                    <ul class="c-list c-list--unstyled" id="Walmart">
-                    </ul>
+                    <div class="o-grid" id="walmart">
+                    </div>
                 </div>
             </div>
 
@@ -49,7 +49,6 @@
         </footer>
     </div>
 </div>
-<script src="js/clipboard.min.js"></script>
 <script src="js/result.js"></script>
 </body>
 </html>

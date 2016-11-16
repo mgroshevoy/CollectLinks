@@ -14,9 +14,9 @@
 
   "permissions": [
     "tabs",
-    "clipboard",
     "clipboardRead",
-    "clipboardWrite"
+    "clipboardWrite",
+    "http://*/"
   ],
 
   "browser_action": {
